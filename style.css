@@ -13,17 +13,26 @@ body {
 }
 
 .header {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 0;
 }
 
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
+}
+
+.header .links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
 }
 
 .header .links a {
@@ -33,62 +42,160 @@ body {
 }
 
 .intro {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    padding: 100px 0 140px 0;
+}
+
+.intro .left {
+    flex: 1;
 }
 
 .intro .left h1 {
     font-size: 48px;
     font-weight:bolder;
     color: #F9FAF8;
+    margin: 0;
 }
 
 .intro .left p {
     font-size: 18px;
     color: #E5E7EB;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .intro .left button {
     background-color: #3882F6;
     color: #F9FaF8;
+    border-style: none;
+    font-weight: 700;
+    padding: 10px 35px;
+    border-radius: 10px;
 }
 
 .intro .right {
     background-color: grey;
     color: white;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.session-2 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 140px;
 }
 
 .session-2 h2 {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.squares {
+    display: flex;
+    gap: 60px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.squares figure {
+    width: 170px;
+    margin: 0;
 }
 
 .squares .image {
     border-style: solid;
     border-color: #3882F6;
+    height: 170px;
+    width: 170px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border-width: 4px;
 }
 
-.call-to-action {
-    background-color: #3882F6;
-}
-
-.call-to-action button {
-    background: none;
+.squares figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
 }
 
 .session-3 {
     background-color: #E5E7Eb;
+    padding: 140px 0;
+}
+
+.quote-block {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .session-3 .text {
     font-size: 36px;
-    font-weight: 200;
+    font-weight: 100;
     color: #1F2937;
+    margin: 0;
+    font-style: italic;
+}
+
+.session-3 .quote {
+    margin: 0;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 40px;
+    margin-top: 20px;
+}
+
+.session-4 {
+    padding: 100px 0;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #E5E7EB;
+    padding: 70px 100px;
+    box-sizing: border-box;
+}
+
+.call-to-action .left h3 {
+    margin: 0;
+}
+
+.call-to-action .left p {
+    margin: 0;
+}
+
+.call-to-action button {
+    background: none;
+    color: #E5E7EB;
+    border-style: solid;
+    border-color: #E5E7EB;
+    font-weight: 700;
+    padding: 10px 35px;
+    border-radius: 10px;
 }
 
 .footer {
     background-color: #1F2937;
     font-size: 18px;
     color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
