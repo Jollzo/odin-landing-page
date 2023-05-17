@@ -1,0 +1,94 @@
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.session-1 {
+    background-color: #1F2937;
+    padding: 0 100px;
+}
+
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.header .links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.intro {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.intro .left h1 {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+}
+
+.intro .left p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.intro .left button {
+    background-color: #3882F6;
+    color: #F9FaF8;
+}
+
+.intro .right {
+    background-color: grey;
+    color: white;
+}
+
+.session-2 h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.squares .image {
+    border-style: solid;
+    border-color: #3882F6;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+}
+
+.call-to-action button {
+    background: none;
+}
+
+.session-3 {
+    background-color: #E5E7Eb;
+}
+
+.session-3 .text {
+    font-size: 36px;
+    font-weight: 200;
+    color: #1F2937;
+}
+
+.footer {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+}
